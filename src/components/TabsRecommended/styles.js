@@ -11,11 +11,13 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.8)',
     borderRadius: 4,
     marginLeft: 10,
-    padding: 10,
     justifyContent: 'space-between',
   },
   tabText: {
     fontSize: 14,
-    color: '#000',
+    color: '#ddd',
   },
+  title: {
+    color: '#eee',
+  }
 });

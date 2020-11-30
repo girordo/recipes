@@ -20,7 +20,6 @@ export default function Login({ navigation }) {
           <View style={{ flexDirection: 'row' }}>
             <TextInput
               mode="outlined"
-              theme={{ colors: { primary: '#FF7600' } }}
               style={styles.input}
               autoCapitalize="none"
               autoCorrect={false}
@@ -43,7 +42,6 @@ export default function Login({ navigation }) {
           <View style={{ flexDirection: 'row' }}>
             <TextInput
               mode="outlined"
-              theme={{ colors: { primary: '#FF7600' } }}
               style={styles.input}
               autoCapitalize="none"
               autoCorrect={false}
