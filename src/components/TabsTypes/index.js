@@ -8,6 +8,7 @@ export default function TabsTypes({ translateY }) {
         horizontal={true}
         contentContainerStyle={{ paddingLeft: 10, paddingRight: 20 }}
         showsHorizontalScrollIndicator={false}
+        snapToInterval={200}
       >
         <View style={styles.tabItem}>
           <Text style={styles.tabText}>Primeiro item</Text>

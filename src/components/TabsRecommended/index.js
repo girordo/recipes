@@ -10,6 +10,7 @@ export default function TabsRecommmended({ translateY }) {
         horizontal={true}
         contentContainerStyle={{ paddingLeft: 10, paddingRight: 20 }}
         showsHorizontalScrollIndicator={false}
+        snapToInterval={200}
       >
         <View>
           <View style={styles.tabItem}>
